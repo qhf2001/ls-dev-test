@@ -69,5 +69,6 @@ public class TestWebController {
         queryMap.put("name", po.getName());
         System.out.println("after delete: " + moneyMapper.selectByMap(queryMap));
         System.out.println("测试git");
+        System.out.println("测试git_1");
     }
 }
