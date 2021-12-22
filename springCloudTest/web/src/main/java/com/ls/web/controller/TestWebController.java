@@ -68,5 +68,6 @@ public class TestWebController {
         Map<String, Object> queryMap = new HashMap<>(2);
         queryMap.put("name", po.getName());
         System.out.println("after delete: " + moneyMapper.selectByMap(queryMap));
+        System.out.println("测试git");
     }
 }
